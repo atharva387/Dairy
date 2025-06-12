@@ -17,6 +17,10 @@ namespace DairyApp.Controllers
         {
             return View();
         }
+        public IActionResult MyPage()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
